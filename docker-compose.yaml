@@ -5,4 +5,4 @@ services:
             context: .
             dockerfile: Dockerfile
         environment:
-            TOKEN: MY_TOKEN
+            TOKEN: 7551388193:AAGz0PeOFbbdnapmzQOHJUEWifZgWYITYUY
