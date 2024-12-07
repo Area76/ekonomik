@@ -1,11 +1,11 @@
 version: 1
-project: my-project
+project: ekonomik
 
 repositories:
 
     echobot:
 
-        url: https://github.com/Area76/ekonomik/tree/main
+        url: https://github.com/Area76/ekonomik/tree/main.git
         branch: main
 
         # Set CPU and Memory for first container startup
