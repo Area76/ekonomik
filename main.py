@@ -237,9 +237,9 @@ def start_survey_1(message):
     user_data_1.clear()  # Сброс данных пользователя
     ask_question_1(message)
 
-@bot.message_handler(func=lambda message: message.text == "Опрос по экономической психологии")
+@bot.message_handler(func=lambda message: message.text == "Опрос по социальной психологии")
 def start_survey_2(message):
-    """Запускает опрос по экономической психологии."""
+    """Запускает опрос по социальной психологии."""
     global current_question_2
     current_question_2 = 0
     user_data_2.clear()  # Сброс данных пользователя
